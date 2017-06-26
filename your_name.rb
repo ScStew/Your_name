@@ -1,5 +1,7 @@
-p "what is your first name?"
+p "What is your first name?"
 first = gets.chomp
-p "what is your last name?"
+p "What is your last name?"
 last = gets.chomp
-p "your name is #{first} #{last}"
+
+
+p "Your name is #{first.capitalize} #{last.capitalize}."
